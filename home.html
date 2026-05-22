@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Home Solutions</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background:#f2f2f2;
+}
+
+/* Barra superior */
+.topbar{
+    background:#000;
+    color:white;
+    padding:15px 8%;
+    text-align:right;
+    font-size:14px;
+}
+
+.topbar a{
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+}
+
+/* Header azul */
+.hero{
+    background: linear-gradient(90deg,#003b91,#0066ff);
+    color:white;
+    padding:60px 8% 140px;
+}
+
+.logo{
+    font-size:60px;
+    font-weight:bold;
+}
+
+.logo span{
+    font-size:18px;
+    vertical-align:top;
+}
+
+.subtitle{
+    font-size:28px;
+    margin-top:10px;
+}
+
+/* Buscador */
+.search-box{
+    margin-top:30px;
+    max-width:450px;
+    position:relative;
+}
+
+.search-box input{
+    width:100%;
+    padding:18px 50px 18px 20px;
+    border:none;
+    border-radius:8px;
+    font-size:18px;
+    outline:none;
+}
+
+.search-box i{
+    position:absolute;
+    right:18px;
+    top:18px;
+    color:#888;
+    font-size:22px;
+}
+
+/* Cards */
+.cards{
+    width:85%;
+    margin:-80px auto 50px;
+    display:flex;
+    gap:30px;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+.card{
+    background:#efefef;
+    width:320px;
+    height:250px;
+    border-radius:15px;
+    box-shadow:0 6px 18px rgba(0,0,0,0.15);
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    transition:0.3s;
+    cursor:pointer;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.icon-circle{
+    width:90px;
+    height:90px;
+    background:#e2e2e2;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-bottom:25px;
+}
+
+.icon-circle i{
+    font-size:40px;
+    color:#162847;
+}
+
+.card h3{
+    text-align:center;
+    color:#444;
+    font-size:20px;
+}
+
+/* Responsive */
+@media(max-width:900px){
+    .logo{
+        font-size:50px;
+    }
+
+    .cards{
+        flex-direction:column;
+        align-items:center;
+    }
+
+    .card{
+        width:90%;
+    }
+}
+</style>
+</head>
+<body>
+
+<!-- Barra superior -->
+<div class="topbar">
+    <a href="https://www.bitdefender.com/business/support/?lang=en&srsltid=AfmBOooHM4XMhe6sBDugDF7L3f_VYeMD61o2UjHvzyNuj0o78DUtTnsc">B2B Bitdefender</a>
+    <a href="Inicio.html">Inicio</a>
+</div>
+
+<!-- Header -->
+<section class="hero">
+    <div class="logo">Bitdefender COMOL IMP. EXP. SRL.<span></span></div>
+    <div class="subtitle">Home Solutions</div>
+</section>
+
+<section class="cards">
+
+     <div class="card" onclick="window.location='https://www.bitdefender.es/consumer/support/answer/126157/'">
+        <div class="icon-circle">
+            <img src="https://cdn-icons-png.flaticon.com/128/4659/4659043.png" width="70">
+        </div>
+        <h3>Activación de <br>la Licencia</h3>
+    </div>
+
+    <div class="card" onclick="window.location='https://www.bitdefender.com/consumer/support/answer/45383/'">
+        <div class="icon-circle">
+            <img src="https://cdn.pixabay.com/photo/2021/10/17/14/47/windows-7-logo-6718525_960_720.png"  width="70">
+        </div>
+        <h3>Instalación <br>Windows 7</h3>
+    </div>
+
+    <div class="card" onclick="window.location='https://www.bitdefender.com/consumer/support/answer/45383/'">
+        <div class="icon-circle">
+            <img src="    https://cdn-icons-png.flaticon.com/128/807/807303.png"  width="70">
+        </div>
+        <h3>Guias de<br>Instalación</h3>
+    </div>
+
+    <div class="card" onclick="window.location='https://www.bitdefender.com/content/dam/bitdefender/consumers/case-studies/family-pack/ES.pdf?adobe_mc=MCMID%3D83566281203338277352474668878641152152%7CMCORGID%3D0E920C0F53DA9E9B0A490D45%2540AdobeOrg%7CTS%3D1779210411&_gl=1*aw10cg*_gcl_au*MjA0NTg2NzAxMS4xNzc2MTkzMzUx*_ga*NDczMTAzMjc4LjE3NzYxOTMzNTg.*_ga_6M0GWNLLWF*czE3NzkyMDgyMzEkbzQkZzEkdDE3NzkyMTA0MTIkajYwJGwwJGgxMDk4MTIyNTIy'">
+        <div class="icon-circle">
+            <img src="https://cdn-icons-png.flaticon.com/128/1092/1092000.png"  width="70">
+        </div>
+        <h3>Guía de Usuario  <br>Bitdefender Family Pack</h3>
+    </div>
+
+     <div class="card" onclick="window.location='https://www.bitdefender.com/content/dam/bitdefender/consumers/case-studies/total-security/ES.pdf'">
+        <div class="icon-circle">
+            <img src="https://cdn-icons-png.flaticon.com/128/1092/1092000.png"  width="70">
+        </div>
+        <h3>Guía de Usuario<br>Bitdefender Total Security</h3>
+    </div>
+
+    <div class="card" onclick="window.location='https://www.bitdefender.com/content/dam/bitdefender/consumers/case-studies/internet-security/ES.pdf?adobe_mc=MCMID%3D83566281203338277352474668878641152152%7CMCORGID%3D0E920C0F53DA9E9B0A490D45%2540AdobeOrg%7CTS%3D1779210411&_gl=1*actf0n*_gcl_au*MjA0NTg2NzAxMS4xNzc2MTkzMzUx*_ga*NDczMTAzMjc4LjE3NzYxOTMzNTg.*_ga_6M0GWNLLWF*czE3NzkyMDgyMzEkbzQkZzEkdDE3NzkyMTA0NzAkajIkbDAkaDEwOTgxMjI1MjI.'">
+        <div class="icon-circle">
+            <img src="https://cdn-icons-png.flaticon.com/128/1092/1092000.png"  width="70">
+        </div>
+        <h3>Guía de Usuario<br>Bitdefender Internet Security</h3>
+    </div>
+
+    <div class="card" onclick="window.location='https://www.bitdefender.com/content/dam/bitdefender/solutions/user-guide/bitdefender-mobile-security-for-android_user-guide-ES.pdf?adobe_mc=MCMID%3D83566281203338277352474668878641152152%7CMCORGID%3D0E920C0F53DA9E9B0A490D45%2540AdobeOrg%7CTS%3D1779210411&_gl=1*17lnzy2*_gcl_au*MjA0NTg2NzAxMS4xNzc2MTkzMzUx*_ga*NDczMTAzMjc4LjE3NzYxOTMzNTg.*_ga_6M0GWNLLWF*czE3NzkyMDgyMzEkbzQkZzEkdDE3NzkyMTA1NTYkajU4JGwwJGgxMDk4MTIyNTIy'">
+        <div class="icon-circle">
+            <img src="https://cdn-icons-png.flaticon.com/128/1092/1092000.png"  width="70">
+        </div>
+        <h3>Guía de Usuario  <br>Bitdefender Mobile Security for Android</h3>
+    </div>
+
+    <div class="card" onclick="window.location='https://www.bitdefender.com/content/dam/bitdefender/consumers/case-studies/mobile-security-ios/ES.pdf?adobe_mc=MCMID%3D83566281203338277352474668878641152152%7CMCORGID%3D0E920C0F53DA9E9B0A490D45%2540AdobeOrg%7CTS%3D1779210411&_gl=1*1jnxqnv*_gcl_au*MjA0NTg2NzAxMS4xNzc2MTkzMzUx*_ga*NDczMTAzMjc4LjE3NzYxOTMzNTg.*_ga_6M0GWNLLWF*czE3NzkyMTgzMDEkbzUkZzAkdDE3NzkyMTgzMDYkajU1JGwwJGgxMTMwMTQwNTgz'">
+        <div class="icon-circle">
+            <img src="https://cdn-icons-png.flaticon.com/128/1092/1092000.png"  width="70">
+        </div>
+        <h3>Guía de Usuario  <br>Bitdefender Mobile Security for iOS</h3>
+    </div>
+   
+    <div class="card" onclick="window.location='https://www.bitdefender.com/content/dam/bitdefender/consumers/case-studies/parental-control/ES.pdf?adobe_mc=MCMID%3D83566281203338277352474668878641152152%7CMCORGID%3D0E920C0F53DA9E9B0A490D45%2540AdobeOrg%7CTS%3D1779210411&_gl=1*1m5jkcn*_gcl_au*MjA0NTg2NzAxMS4xNzc2MTkzMzUx*_ga*NDczMTAzMjc4LjE3NzYxOTMzNTg.*_ga_6M0GWNLLWF*czE3NzkyMTgzMDEkbzUkZzEkdDE3NzkyMTg2OTUkajU1JGwwJGgxMTMwMTQwNTgz'">
+        <div class="icon-circle">
+            <img src="https://cdn-icons-png.flaticon.com/128/1092/1092000.png"  width="70">
+        </div>
+        <h3>Guía de Usuario  <br>Bitdefender Parental Control</h3>
+    </div>
+
+
+</section>
+
+</body>
+</html>
