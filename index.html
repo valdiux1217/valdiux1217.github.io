@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title >COMOL IMP. EXP. S.R.L. » Support Center</title>
+
+<link rel="icon" href="https://comol.com.bo/wp-content/uploads/2020/08/cropped-favicon-32x32.png">
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background:#f2f2f2;
+}
+
+/* Barra superior */
+.topbar{
+    background:#000;
+    color:white;
+    padding:15px 8%;
+    text-align:right;
+    font-size:14px;
+}
+
+.topbar a{
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+}
+
+/* Header azul */
+.hero{
+    background: linear-gradient(90deg,#003b91,#0066ff);
+    color:white;
+    padding:60px 8% 140px;
+}
+
+.logo{
+    font-size:60px;
+    font-weight:bold;
+}
+
+.logo span{
+    font-size:18px;
+    vertical-align:top;
+}
+
+.subtitle{
+    font-size:28px;
+    margin-top:10px;
+}
+
+/* Buscador */
+.search-box{
+    margin-top:30px;
+    max-width:450px;
+    position:relative;
+}
+
+.search-box input{
+    width:100%;
+    padding:18px 50px 18px 20px;
+    border:none;
+    border-radius:8px;
+    font-size:18px;
+    outline:none;
+}
+
+.search-box i{
+    position:absolute;
+    right:18px;
+    top:18px;
+    color:#888;
+    font-size:22px;
+}
+
+/* Cards */
+.cards{
+    width:85%;
+    margin:-80px auto 50px;
+    display:flex;
+    gap:30px;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+.card{
+    background:#efefef;
+    width:320px;
+    height:250px;
+    border-radius:15px;
+    box-shadow:0 6px 18px rgba(0,0,0,0.15);
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    transition:0.3s;
+    cursor:pointer;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.icon-circle{
+    width:90px;
+    height:90px;
+    background:#e2e2e2;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-bottom:25px;
+}
+
+.icon-circle i{
+    font-size:40px;
+    color:#162847;
+}
+
+.card h3{
+    text-align:center;
+    color:#444;
+    font-size:20px;
+}
+
+/* Responsive */
+@media(max-width:900px){
+    .logo{
+        font-size:50px;
+    }
+
+    .cards{
+        flex-direction:column;
+        align-items:center;
+    }
+
+    .card{
+        width:90%;
+    }
+}
+</style>
+</head>
+<body>
+
+<!-- Barra superior -->
+<div class="topbar">
+    <a href="https://www.bitdefender.com/business/support/?lang=en&srsltid=AfmBOooHM4XMhe6sBDugDF7L3f_VYeMD61o2UjHvzyNuj0o78DUtTnsc">B2B Bitdefender</a>
+
+</div>
+
+<!-- Header -->
+<section class="hero">
+    <div class="logo">Bitdefender COMOL IMP. EXP. SRL.<span></span></div>
+    <div class="subtitle">Support Center</div>
+</section>
+
+<!-- Tarjetas -->
+<section class="cards">
+
+    <div class="card" onclick="window.location='home.html'">
+        <div class="icon-circle">
+            <i class="fas fa-users"></i>
+        </div>
+        <h3>SOLUCIONES <br>HOME</h3>
+    </div>
+
+    <div class="card" onclick="window.location='cloud.html'">
+        <div class="icon-circle">
+            <i class="fas fa-cloud"></i>
+        </div>
+        <h3>SOLUCIONES EN LA NUBE</h3>
+    </div>
+
+    <div class="card" onclick="window.location='onpremisse.html'">
+        <div class="icon-circle">
+            <i class="fas fa-globe"></i>
+        </div>
+        <h3>SOLUCIONES ON-PREMISSE</h3>
+    </div>
+
+    <div class="card" onclick="window.location='https://www.bitdefender.la/compare-solutions/?___store=la_en'">
+        <img src="https://thumbs.dreamstime.com/b/s%C3%ADmbolo-de-icono-comparaci%C3%B3n-frente-en-el-dise%C3%B1o-c%C3%ADrculo-dividido-para-elegir-o-competir-generado-por-ia-400516542.jpg" width="90px" style="border-radius: 50%;">
+        <h3>COMPARACIÓN DE NUESTRAS SOLUCIONES</h3>
+    </div>
+    <div class="card" onclick="window.location='https://www.bitdefender.com/en-gb/business/certifications'">
+        <img src="data:image/png;base64,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" width="90px" style="border-radius: 50%;">
+        <h3>CERTIFICACIONES</h3>
+    </div>
+    
+
+</section>
+
+</body>
+</html>
